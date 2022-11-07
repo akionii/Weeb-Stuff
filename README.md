@@ -1,2 +1,2 @@
 # MyAnimeList
-My Anime List CSS custom list's.
+MyAnimeList Custom CSS List.
