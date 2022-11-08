@@ -13,9 +13,8 @@ export const AnimeInfo = (props) => {
                 <h3>Rank: {rank}</h3>
                 <h3>Score:</h3>{score} / 10
                 <h3>Popularity: {popularity}</h3>
-
-                <br></br>
                 
+                <br></br>
                 <>Members:{members}</>
                 <br></br><br></br>
                 <>Source:{source}</>

@@ -26,7 +26,9 @@ export const AnimeList = ({ animelist, setAnimeInfo, animeComponent, handleList 
                             </div>
                         )
                     })
-                ) : "Not Found"
+                ) : <div className='NoResult'>
+                        No Result...
+                    </div>
             }
 
         </>

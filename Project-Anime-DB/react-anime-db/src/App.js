@@ -53,8 +53,8 @@ function App() {
           {animeInfo && <AnimeInfo animeInfo={animeInfo} />}
         </div>
         <div className="anime-row">
-          <h2 className="text-heading">Anime</h2>
           <div className="row">
+          <h2 className="text-heading">Anime</h2>
             <AnimeList
               animelist={animeData}
               setAnimeInfo={setAnimeInfo}
@@ -62,8 +62,8 @@ function App() {
               handleList={(anime) => addTo(anime)}
             />
           </div>
-          <h2 className="text-heading">My List</h2>
           <div className="row">
+          <h2 className="text-heading">My List</h2>
             <AnimeList
               animelist={myAnimeList}
               setAnimeInfo={setAnimeInfo}
